@@ -15,7 +15,7 @@ from PySide6.QtWidgets import (
 
 
 class CalculatorModel:
-    OPERATORS = {"+", "-", "×", "÷"}
+    OPERATORS = {"+", "-", "×", "÷"}    ## Solo 4 operaciones basicas, más la operacion de Porcentajes
 
     def __init__(self) -> None:
         self.clear()
